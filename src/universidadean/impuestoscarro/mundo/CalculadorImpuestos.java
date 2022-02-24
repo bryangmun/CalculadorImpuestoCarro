@@ -331,7 +331,7 @@ public class CalculadorImpuestos {
             Vehiculo vehiculo = vehiculos[i];
             suma+=vehiculo.darPrecio();
         }
-        promedio = Math.round(suma/vehiculos.length);
+        promedio = suma/vehiculos.length;
 
         return promedio;
     }
